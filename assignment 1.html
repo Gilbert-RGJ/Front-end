@@ -1,0 +1,90 @@
+<!doctyoe html>
+<html>
+<head>
+    <title>Assignment 1 : Input tags</title>
+    <!--Input tags-->
+    <style>
+
+    </style>
+</head>
+<body>
+    <input type="image" img src="logo.png" alt="logo" style="float:left" width="50" height="50">
+    <h1><p align="center" >Form Fill Up</p></h1>
+        <p align="right">
+        <input type="search" id="googlesearch" name="googlesearch" placeholder="Search">
+        <input type="submit"></p>
+    <form>
+    <fieldset>
+        <legend>Full Name:</legend><br>
+            <Label for="FirstName">First Name:</Label>
+            <Input type="text" id="FirstName" name="FirstName"><br><br> 
+            <Label for="LastName">Last Name:</Label>
+            <Input type="text" id="LastName" name="LastName"><br>
+    </fieldset><br>
+    <fieldset>
+        <Legend>Account Details:</Legend><br>
+        <label for="Username">UserName:</label>
+        <input type="text" id="Username" name="Username"><br><br>
+        <label for="Phno.">Phone Number:</label>
+        <input type="tel" id="Phno." name="Phno." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+        <Label for ="EmailID">Email ID:</Label>
+        <input type="email" id="EmailID" name="EmailID"><br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password"><br>
+        </label>
+    </fieldset><br>
+    <fieldset>
+        <legend>Personal Details:</legend><br>
+        <label>Gender:</label>
+        <div><br>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="Others" name="gender" value="Others">
+        <label for="Others">Others</label><br><br>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="Bday">Birthday:</label>
+        <input type="datetime-local" id="Bday" name="bday"><br><br>
+        </div><br>
+        <label for="Age">Please enter your age:</label>
+        <input type="number" id="Age" name="Age" min="1" max="100"><br><br>
+        <label>Hobbies:</label><br><br>
+        <input type="checkbox" id="Gaming" name="Gaming" value="Gaming">
+        <label for="Gaming">Gaming</label>
+        <input type="checkbox" id="Singing" name="Singing" value="Singing">
+        <label for="Singing">Singing</label>
+        <input type="checkbox" id="Dancing" name="Dancing" value="Dancing">
+        <label for="Dancing">Dancing</label>
+        <input type="checkbox" id="Painting" name="Painting" value="Painting">
+        <label for="Painting">Painting</label>
+        <input type="checkbox" id="Designing" name="Designing" value="Designing">
+        <label for="Designing">Designing</label><br> <br>
+        <label for="Color">Pick your fav color:</label>
+        <input type="color" value="#ff00ff">
+    </fieldset><br>
+    <fieldset>
+        <legend>Official:</legend>
+        <label for="Resume">Upload your Resume:</label>
+        <input type="file" id="Resume" name="Resume" ><br><br>
+        <label for="Link">Share Resume Link:</label>
+        <input type="url" id="Link" name="Link"><br><br>
+        <label for="Interview">Preferred Interview time:</label>
+        <input type="time" id="Interview" name="Interview"><br><br>
+        <label for="InterviewWeek">Preferred Interview date,week:</label>
+        <input type="week" id="InterviewWeek" name="InterviewWeek"><br><br>
+        <label for="InterviewMonth">Preferred Interview month:</label>
+        <input type="month" id="InterviewMonth" name="InterviewMonth"><br><br>
+    </fieldset><br>
+    <fieldset>
+        <legend>FeedBack:</legend><br>
+        <label for="Rating">Rating:</label>
+        <input type="range" id="Rating" name="Rating" min="0" max="15"><br><br>
+        </fieldset>
+    <p align="center"><input type="submit">
+    <input type="reset">
+    </p>
+    </form>
+</body>
+</html>
