@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combinator selectors</title>
+        <style>
+         /* Descendant Selector */
+         div p {
+             color: teal;
+         }
+         /* Child Selector */
+         div>p {
+             color: tomato;
+         }
+         /* Adjucent sibling */
+         div+a {
+             color: yellowgreen;
+         }
+         /* general sibling */
+         div~p {
+             color: blueviolet;
+         }
+        </style>
+    </head>
+    <body>
+        <h1>Combinator Selectors</h1>
+        <div>
+            <p>Sample text 1</p>
+            <p>Sample text 2</p>
+            <p>sample text 3</p>
+            <span><p>Span text 1</p></span>
+            <span><p>Span text 2</p></span>
+        </div>
+        <a>Hello world</a><br>
+        <a>Hello world</a>
+        <p>Hello world!!</p>
+        <p>Hello world!!</p>
+        <div>
+            <p>Sample text 4</p>
+            <p>Sample text 5</p>
+            <p>sample text 6</p>
+            <span><p>Span text 3</p></span>
+            <span><p>Span text 4</p></span>
+        </div>
+    </body>
+</html>
