@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo class</title>
+        <!-- This is for Pseudo class-->
+        <style>
+            /* secret message */
+            p {
+                display: none;
+            }
+            div:hover p {
+                display: block;
+            }
+            /* first child and last child */
+            p:first-child {
+                color: sandybrown;
+            }
+            p:last-child {
+                color: slateblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Hover over me for the secret message
+            <p>Hey There!! have a wonderful day ahead</p>
+            <p>Hey There!! have a wonderful day ahead</p>
+            <p>Hey There!! have a wonderful day ahead</p>
+        </div>
+    </body>
+</html>

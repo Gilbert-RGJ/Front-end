@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo class</title>
+        <!-- This is for Pseudo class-->
+        <style>
+            /* using Italic tag to select on a particular part of a sentence to highlight it */
+            p i:first-child {
+                color:slateblue;
+                background-color: tomato;
+            }
+            p i:last-child {
+                color:teal;
+                background-color: thistle;
+            }
+            p:first-child b {
+                color: turquoise;
+            }
+        </style>
+    </head>
+    <body>
+        <p><i>Hey There!!</i> have a <b>wonderful</b> day ahead</p>
+        <p>Hey There!! have a wonderful day ahead</p>
+        <p>Hey There!! <i>have a wonderful day ahead</i></p>
+   </body>
+</html>
