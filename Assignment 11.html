@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseduo elements</title>
+        <style>
+            /* Before text */
+            h1::before {
+                content: url(crown.png);
+            }
+            /* after text */
+            h1::after {
+                content: url(crown.png)
+            }
+            /* on selection highlight */
+            ::selection {
+                color: chartreuse;
+                background-color: darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Hello world</h1>
+        <div>Its a beautiful day today..</div>
+        <p>Hope everyone has a good day ahead..</p>
+    </body>
+</html>
