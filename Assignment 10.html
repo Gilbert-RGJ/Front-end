@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo-elements</title>
+        <style>
+            /* first letter pseudo element */
+            p::first-letter {
+                color: yellowgreen;
+                font-size: xx-large;
+            }
+            /* first letter pseudo element by using classs */
+            p.Legend::first-letter {
+                color: blueviolet;
+                font-size: 500%;
+            }
+            /* first letter and first line */
+            p.Legend::first-letter { 
+                color: brown;
+                font-size: 500%;
+            }
+            p.Legend::first-line {
+                color: cadetblue;
+                font-size: 250%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Once upon a time..</p>
+            <p class="Legend">There was the ruler of rulers, king of kings. <br>He was so strong and mighty that he was feared by everyone.</p>
+        </div>
+    </body>
+</html>  
