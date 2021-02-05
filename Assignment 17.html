@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Justify-content</title>
+        <style>
+            /* Justify center, flex start, flex end, space around, space between */
+            .justifycenter {
+                display: flex;
+                justify-content: center;
+                background-color: mediumblue;
+            }
+            .justifycenter > div {
+                background-color: moccasin;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .flexstart {
+                display: flex;
+                justify-content: flex-start;
+                background-color: purple;
+            }
+            .flexstart > div {
+                background-color: rosybrown;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .flexend {
+                display: flex;
+                justify-content: flex-end;
+                background-color: darkslategrey;
+            }
+            .flexend > div {
+                background-color: darkturquoise;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .spacearound {
+                display: flex;
+                justify-content: space-around;
+                background-color: dimgrey;
+            }
+            .spacearound > div {
+                background-color: goldenrod;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .spacebetween {
+                display: flex;
+                justify-content: space-between;
+                background-color: green;
+            }
+            .spacebetween > div {
+                background-color: greenyellow;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="justifycenter">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flexstart">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="flexend">
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+        </div>
+        <div class="spacearound">
+            <div>21</div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+        </div>
+        <div class="spacebetween">
+            <div>25</div>
+            <div>26</div>
+            <div>27</div>
+        </div>
+    </body>
+</html>
