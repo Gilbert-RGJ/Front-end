@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Align Items</title>
+        <style>
+            /* align items = center, flex start, flex end, stretch and basline */
+            .center {
+                display: flex;
+                height: 200px;
+                align-items: center;
+                background-color: indigo;
+            }
+            .center > div {
+                background-color: lightgray;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+            .flexstart {
+                display: flex;
+                height: 200px;
+                align-items: flex-start;
+                background-color: lightslategray;
+            }
+            .flexstart > div {
+                background-color: lime;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+            .flexend {
+                display: flex;
+                height: 200px;
+                align-items: flex-end;
+                background-color: maroon;
+            }
+            .flexend > div {
+                background-color: orange;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+            .stretch {
+                display: flex;
+                height: 200px;
+                align-items: stretch;
+                background-color: saddlebrown;
+            }
+            .stretch > div {
+                background-color: salmon;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 100px;
+                font-size: 30px;
+            }
+            .baseline {
+                display: flex;
+                height: 200px;
+                align-items: baseline;
+                background-color: slateblue;
+            }
+            .baseline > div {
+                background-color: tan;
+                width: 125px;
+                margin: 15px;
+                line-height: 100px;
+                text-align: center;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="flexstart">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+        <div class="flexend">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+        </div>
+        <div class="stretch">
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <div class="baseline">
+            <div><h1>13</h1></div>
+            <div><h2>14</h2></div>
+            <div><h3>15</h3></div>
+        </div>
+    </body>
+</html>
