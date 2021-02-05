@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Align-content</title>
+        <style>
+            /* Align content with center, flexstart, flexend, spacebetween, spacearound, stretch */
+            .center {
+                display: flex;
+                height: 400px;
+                align-content: center;
+                flex-wrap: wrap;
+                background-color: teal;
+            }
+            .center > div {
+                background-color: thistle;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .flexstart {
+                display: flex;
+                height: 400px;
+                align-content: flex-start;
+                flex-wrap: wrap;
+                background-color: blueviolet;
+            }
+            .flexstart > div {
+                background-color: burlywood;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .flexend {
+                display: flex;
+                height: 400px;
+                align-content: flex-end;
+                flex-wrap: wrap;
+                background-color: darkblue;
+            }
+            .flexend > div {
+                background-color: darkcyan;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .stretch {
+                display: flex;
+                height: 400px;
+                align-content: stretch;
+                flex-wrap: wrap;
+                background-color: darkred;
+            }
+            .stretch > div {
+                background-color: darksalmon;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .spacearound {
+                display: flex;
+                height: 400px;
+                flex-wrap: wrap;
+                align-content: space-around;
+                background-color: darkslateblue;
+            }
+            .spacearound > div {
+                background-color: darkturquoise;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .spacebetween {
+                display: flex;
+                height: 400px;
+                align-content: space-between;
+                flex-wrap: wrap;
+                background-color: lightcoral;
+            }
+            .spacebetween > div {
+                background-color: lightcyan;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="flexstart">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="flexend">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="stretch">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="spacearound">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+        <div class="spacebetween">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+    </body>
+</html>
