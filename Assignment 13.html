@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            /* resize with color effects and hover over menu options to self align */
+            * {
+                box-sizing: border-box;
+            }
+            .navigation {
+                overflow: hidden;
+                background-color: rgb(37, 37, 37);
+            }
+            .navigation a {
+                float:left;
+                display: block;
+                color: blanchedalmond;
+                text-align: center;
+                padding: 15px 15px;
+                text-decoration: blueviolet;
+            }
+            .navigation a:hover {
+                background-color: cornsilk;
+                color: black;
+            }
+            body {
+                background-color: cornsilk;
+                color: darkmagenta;
+            }    
+            @media screen and (max-width: 990px) {
+            body {
+                background-color: darksalmon;
+                color: darkslategrey;
+            }
+            }
+            @media screen and (max-width: 660px) {
+                body {
+                    background-color: gainsboro;
+                    color: limegreen;
+                }
+            }
+            @media screen and (max-width: 600px) {
+                .navigation a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navigation">
+            <a href="#">Menu</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <h1>Browser resize</h1>
+        <p>Critical thinking is the heart and soul of learning, and–in our estimation anyway–ultimately more important than any one specific content area or subject matter.</p>
+        <p>Critical thinking is the heart and soul of learning, and–in our estimation anyway–ultimately more important than any one specific content area or subject matter.</p>
+        <p>Critical thinking is the heart and soul of learning, and–in our estimation anyway–ultimately more important than any one specific content area or subject matter.</p>
+    </body>
+</html>
