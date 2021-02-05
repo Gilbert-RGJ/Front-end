@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex direction</title>
+        <style>
+            /* flex direction row and column */
+            .column {
+                display: flex;
+                flex-direction: column;
+                background-color: blueviolet;
+            }
+            .column > div {
+                background-color: cornsilk;
+                width: 125px;
+                height: 125px;
+                margin: 15px;
+                text-align: center;
+                font-size: 35px;
+                line-height: 125px;
+            }
+            .row {
+                display: flex;
+                flex-direction: row;
+                background-color: darkslategray;
+            }
+            .row > div {
+                background-color: floralwhite;
+                width: 125px;
+                height: 125px;
+                margin: 15px;
+                text-align: center;
+                font-size: 35px;
+                line-height: 125px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="column">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="row">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+    </body>
+</html>

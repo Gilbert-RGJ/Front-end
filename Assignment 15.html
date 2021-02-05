@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Direction</title>
+        <style>
+            /* flex direction for columnreverse and row reverse */
+            .columnreverse  {
+                display: flex;
+                flex-direction: column-reverse;
+                background-color: DodgerBlue;
+            }   
+            .columnreverse {
+                background-color: mistyrose;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .rowreverse {
+                display: flex;
+                flex-direction: row-reverse;
+                background-color: red;
+            }
+            .rowreverse > div {
+                background-color: silver;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="columnreverse">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+        <div class="rowreverse">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+    </body>
+</html>
