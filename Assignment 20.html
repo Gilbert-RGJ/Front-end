@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            /* using flex items = order, grow, shrink, basis  */
+            .order {
+                display: flex;
+                align-items: stretch;
+                background-color: lightsalmon;
+            }
+            .order > div {
+                background-color: lightseagreen;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .grow {
+                display: flex;
+                align-items: stretch;
+                background-color: limegreen;
+            }
+            .grow > div {
+                background-color: mediumblue;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .shrink {
+                display: flex;
+                align-items: stretch;
+                background-color: mediumblue;
+            }
+            .shrink > div {
+                background-color: mediumpurple;
+                width: 125px;
+                margin: 15px;
+                text-align: center;
+                line-height: 125px;
+                font-size: 30px;
+            }
+            .basis {
+                display: flex;
+                align-items: stretch;
+                background-color: midnightblue;
+            }
+            .basis > div {
+                background-color: olive;
+                width: 125px;
+                margin: 15px;
+                line-height: 125px;
+                text-align: center;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="order">
+            <div style="order: 5">1</div>
+            <div style="order: 3">2</div>
+            <div style="order: 1">3</div>
+            <div style="order: 2">4</div>
+            <div style="order: 4">5</div>
+        </div>
+        <div class="grow">
+            <div style="flex-grow: 1">1</div>
+            <div style="flex-grow: 1">2</div>
+            <div style="flex-grow: 1">3</div>
+            <div style="flex-grow: 2">4</div>
+            <div style="flex-grow: 4">5</div>
+        </div>
+        <div class="shrink">
+            <div style="flex-shrink: 0">1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+        <div class="basis">
+            <div style="flex-basis: 150px">1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+    </body>
+</html>
