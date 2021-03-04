@@ -1,7 +1,21 @@
-var x = 10;
-var y = 20;
-function sample1() {
-    return x + y;
+/* var x = 5;
+var y = 15;
+var z = 20;
+function sample() {
+    return x + x,           //addition
+        z - x,              //subtraction
+        x * y,              //multiplication
+        z / x;              //division
 }
-var z = sample1();
-document.getElementById("demo").innerText = z;
+var a = sample()
+document.getElementById("demo").innerHTML = sample(); */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* var array = ["BMW", "Benz", "Toyota", "Jaguar"]              //cancatination
+var object = { firstName: "John", lastName: "Doe", age: 43 }
+document.getElementById("Str").innerHTML = "The person who owns this car is" + " " + object.firstName + " " + object.lastName + " " + "who is currently" + " " + object.age + " " + "years old and owns a" + " " + array[1]; */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
